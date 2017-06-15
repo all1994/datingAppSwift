@@ -26,6 +26,7 @@ struct AuthService {
                 self.setUserInfo(firstLastName:firstLastName,user: user, username: username, country: country, biography: biography, password: password, pictureData: pictureData)
             } else {
                 print(error!.localizedDescription)
+                print("error")
             }
         })
         
